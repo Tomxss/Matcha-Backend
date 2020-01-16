@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Matcha</title>
+<title> <%=title%> </title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/matcha.ico" />
@@ -70,8 +70,9 @@ header -->
               <li class="social-facebook"><a href="https://github.com/Tomxss/Matcha"><i class="fa fa-github"></i></a></li>
             </ul>
             <ul class="list-inline text-uppercase top-menu">
-              <li><a href="register.html">register</a></li>
-              <li><a href="login.html">login</a></li>
+              <%for (i = 0; i < topBar.length; i++) {%>
+              <li><a href="<%=topBar[i].link%>"><%=topBar[i].title%></a></li>
+              <%}%>
             </ul>
           </div>
         </div>
