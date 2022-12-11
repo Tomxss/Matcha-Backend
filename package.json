@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Tomxss/Matcha-Backend#readme",
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
